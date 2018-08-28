@@ -25,7 +25,7 @@ public class frmMain {
 	private final JLabel lblStatus = new JLabel("Status :");
 	private final JLabel lblStatusVrednost = new JLabel("[0]");
 	private final JLabel lbBrojBodovaVrednost = new JLabel("[0]");
-
+	private final JLabel lbBrojBodovaVrednost1 = new JLabel("[0]");
 
 	/**
 	 * Create the application.
@@ -104,7 +104,7 @@ public class frmMain {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JLabel lblBrojSlova = new JLabel("Broj Slova: ");
+		JLabel lblBrojSlova = new JLabel("Broj Slova:: ");
 		lblBrojSlova.setBounds(22, 21, 69, 14);
 		frame.getContentPane().add(lblBrojSlova);
 		
